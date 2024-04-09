@@ -16,7 +16,7 @@ import com.example.firebasestorage.ui.theme.screens.splash.splashscreen
 import com.example.firebasestorage.ui.theme.screens.upload.UploadScreen
 
 @Composable
-fun AppNavHost(modifier: Modifier = Modifier, navController:NavHostController = rememberNavController(), startDestination:String = ROUT_LOGIN) {
+fun AppNavHost(modifier: Modifier = Modifier, navController:NavHostController = rememberNavController(), startDestination:String = ROUT_SPLASH) {
     NavHost(navController = navController, modifier=modifier, startDestination = startDestination){
         composable(ROUT_HOME){
             HomeScreen(navController)
