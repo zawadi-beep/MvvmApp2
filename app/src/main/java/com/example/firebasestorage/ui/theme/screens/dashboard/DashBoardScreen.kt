@@ -60,10 +60,10 @@ fun DashBoardScreen(navController: NavController){
 
         Column(modifier = Modifier.padding(40.dp)) {
             Row {
-                Card(modifier = Modifier.size(width = 150.dp,height = 120.dp), backgroundColor = gold) {
+                Card(modifier = Modifier.size(width = 150.dp,height = 120.dp), ) {
                     Column {
                         Box(modifier = Modifier.fillMaxWidth().padding(top = 20.dp), contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.amazon), contentDescription = "", modifier = Modifier
+                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.clothing), contentDescription = "", modifier = Modifier
                                 .size(50.dp)
                                 )
 
@@ -88,7 +88,7 @@ fun DashBoardScreen(navController: NavController){
 
 
                         }
-                        Text(text = "Clothing", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                        Text(text = "Games", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
 
                     }
 
@@ -105,14 +105,14 @@ fun DashBoardScreen(navController: NavController){
                 Card(modifier = Modifier.size(width = 150.dp,height = 120.dp)) {
                     Column {
                         Box(modifier = Modifier.fillMaxWidth().padding(top = 20.dp), contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.amazon), contentDescription = "", modifier = Modifier
+                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.c), contentDescription = "", modifier = Modifier
                                 .size(50.dp)
                             )
 
 
 
                         }
-                        Text(text = "Clothing", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                        Text(text = "Fruits", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
 
                     }
 
@@ -123,14 +123,14 @@ fun DashBoardScreen(navController: NavController){
                 Card(modifier = Modifier.size(width = 150.dp,height = 120.dp)) {
                     Column {
                         Box(modifier = Modifier.fillMaxWidth().padding(top = 20.dp), contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.amazon), contentDescription = "", modifier = Modifier
+                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.elect), contentDescription = "", modifier = Modifier
                                 .size(50.dp)
                             )
 
 
 
                         }
-                        Text(text = "Clothing", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                        Text(text = "Electronics", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
 
                     }
 
@@ -147,14 +147,14 @@ fun DashBoardScreen(navController: NavController){
                 Card(modifier = Modifier.size(width = 150.dp,height = 120.dp)) {
                     Column {
                         Box(modifier = Modifier.fillMaxWidth().padding(top = 20.dp), contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.amazon), contentDescription = "", modifier = Modifier
+                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.paw), contentDescription = "", modifier = Modifier
                                 .size(50.dp)
                             )
 
 
 
                         }
-                        Text(text = "Clothing", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                        Text(text = "Toys", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
 
                     }
 
@@ -165,14 +165,14 @@ fun DashBoardScreen(navController: NavController){
                 Card(modifier = Modifier.size(width = 150.dp,height = 120.dp)) {
                     Column {
                         Box(modifier = Modifier.fillMaxWidth().padding(top = 20.dp), contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.amazon), contentDescription = "", modifier = Modifier
+                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.car4), contentDescription = "", modifier = Modifier
                                 .size(50.dp)
                             )
 
 
 
                         }
-                        Text(text = "Clothing", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                        Text(text = "Vehicles", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
 
                     }
 
@@ -189,14 +189,14 @@ fun DashBoardScreen(navController: NavController){
                 Card(modifier = Modifier.size(width = 150.dp,height = 120.dp)) {
                     Column {
                         Box(modifier = Modifier.fillMaxWidth().padding(top = 20.dp), contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.amazon), contentDescription = "", modifier = Modifier
+                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.jewel), contentDescription = "", modifier = Modifier
                                 .size(50.dp)
                             )
 
 
 
                         }
-                        Text(text = "Clothing", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                        Text(text = "Jewellery", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
 
                     }
 
@@ -207,14 +207,14 @@ fun DashBoardScreen(navController: NavController){
                 Card(modifier = Modifier.size(width = 150.dp,height = 120.dp)) {
                     Column {
                         Box(modifier = Modifier.fillMaxWidth().padding(top = 20.dp), contentAlignment = Alignment.Center) {
-                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.amazon), contentDescription = "", modifier = Modifier
+                            Image(painter = painterResource(id = com.example.firebasestorage.R.drawable.house5), contentDescription = "", modifier = Modifier
                                 .size(50.dp)
                             )
 
 
 
                         }
-                        Text(text = "Clothing", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
+                        Text(text = "Furniture", fontSize = 20.sp,modifier = Modifier.fillMaxWidth(), textAlign = TextAlign.Center)
 
                     }
 
