@@ -29,6 +29,8 @@ import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
 import com.example.firebasestorage.R
 import com.example.firebasestorage.navigation.ROUT_DASHBOARD
+import com.example.firebasestorage.ui.theme.Purple2
+import com.example.firebasestorage.ui.theme.Purple22
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -38,9 +40,9 @@ import kotlinx.coroutines.launch
 fun splashscreen(navController: NavController){
 
     androidx.compose.foundation.layout.Column (modifier = Modifier
-
+        .background(Purple22)
         .fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
+        horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,) {
 
         val coroutine = rememberCoroutineScope()
         coroutine.launch {
@@ -55,16 +57,16 @@ fun splashscreen(navController: NavController){
             modifier = Modifier.size(400.dp)
         )
         Text(
-            text = "Shop Now",
+            text = "SmartPark",
             fontSize = 40.sp,
-            fontFamily = FontFamily.Cursive,
+            fontFamily = FontFamily.SansSerif,
             fontWeight = FontWeight.ExtraBold,
             modifier = Modifier.padding(start = 20.dp)
         )
 
     }
 }
-@Preview(showSystemUi = true)
+@Preview(showBackground = true)
 @Composable
 fun splashscreenpreview(){
     splashscreen(rememberNavController())
